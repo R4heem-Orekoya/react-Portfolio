@@ -14,7 +14,7 @@ function Hero(){
                 <p className="text-lg mt-5 mb-10">I design and develop beautiful, responsive and modern websites. Need a website?</p>
                 <a href="#">
                     <button className=" flex gap-2 items-center px-7 py-3 rounded-lg mx-auto bg-blue-600 mt-4 hover:bg-blue-700 duration-300">
-                        Let's Talk <BsFillChatDotsFill size={20}/>
+                        Let's Talk <BsFillChatDotsFill size={25}/>
                     </button>
                 </a>
             </div>
