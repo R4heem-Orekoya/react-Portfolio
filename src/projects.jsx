@@ -1,5 +1,5 @@
 import React from "react";
-import {LuRadio} from 'react-icons/Lu'
+import {LuRadio} from 'react-icons/lu'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination} from 'swiper/modules';
 import 'swiper/css';
