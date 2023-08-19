@@ -1,5 +1,5 @@
 import React from "react";
-import homeImage from  './3d3.jpg'
+import homeImage from  './assets/3d3.jpg'
 import { BsFillChatDotsFill } from 'react-icons/bs'
 
 
@@ -13,8 +13,8 @@ function Hero(){
                 <p className="text-4xl font-extrabold lg:text-3xl md:text-2xl sm:text-xl">Frontend Developer & Web Designer✌️</p>
                 <p className="text-lg mt-5 mb-10">I design and develop beautiful, responsive and modern websites. Need a website?</p>
                 <a href="#">
-                    <button className=" flex gap-2 items-center px-7 py-3 rounded-lg mx-auto bg-blue-600 mt-4 hover:bg-blue-700 duration-300">
-                        Let's Talk <BsFillChatDotsFill size={25}/>
+                    <button className=" flex gap-2 items-center px-7 py-3 rounded-lg mx-auto bg-blue-600 mt-4 hover:bg-blue-800 duration-300">
+                        <BsFillChatDotsFill size={25}/> Let's Talk
                     </button>
                 </a>
             </div>
