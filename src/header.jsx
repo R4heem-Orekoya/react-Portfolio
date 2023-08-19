@@ -19,7 +19,7 @@ function Header(){
                 <ul className={!active? "flex gap-8 md:fixed md:top-[80px] md:flex-col md:right-[-100%] md:bg-[#121212] md:w-full md:gap-4 md:p-[5%] md:border-b-[0.5px] md:border-t-[0.5px] md:border-gray-700  duration-500 ease-in-out z-40": "flex gap-8 md:fixed md:top-[80px] md:flex-col md:right-[0] md:bg-[#121212] md:w-full md:gap-4 md:p-[5%] md:border-b-[0.5px] md:border-t-[0.5px] md:border-gray-700 duration-500 ease-in-out z-40"}>
                     <li className="text-white text-md transition duration-300 ease hover:text-blue-600 md:text-sm"><a href="#">Home</a></li>
                     <li className="text-white text-md transition duration-300 ease hover:text-blue-600 md:text-sm"><a href="#about">About</a></li>
-                    <li className="text-white text-md transition duration-300 ease hover:text-blue-600 md:text-sm"><a href="#">Projects</a></li>
+                    <li className="text-white text-md transition duration-300 ease hover:text-blue-600 md:text-sm"><a href="#projects">Projects</a></li>
                     <li className="text-white text-md transition duration-300 ease hover:text-blue-600 md:text-sm"><a href="#">Testomonials</a></li>
                     <li className="text-white text-md transition duration-300 ease hover:text-blue-600 md:text-sm"><a href="#">Contact</a></li>
                 </ul>
