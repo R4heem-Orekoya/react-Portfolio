@@ -20,6 +20,9 @@ export default {
 			md: { max: "767px" },
 			// => @media (max-width: 767px) { ... }
 
+			md2: { max: "700px" },
+      // => @media (max-width: 700px) { ... }
+
 			sm: { max: "639px" },
 			// => @media (max-width: 639px) { ... }
 		},

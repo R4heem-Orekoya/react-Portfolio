@@ -34,8 +34,8 @@ const Project = () => {
       loop={true}
       pagination={{ clickable: true }}
       >
-        <SwiperSlide className="text-white flex justify-between gap-10 sm:flex-wrap sm:justify-center">
-            <img src={Image} alt="..." className="max-w-[100%] w-[380px] sm:w-[100%] sm:h-[300px] h-[400px] object-cover border-white border-x-2 border-y-2"/>
+        <SwiperSlide className="text-white flex justify-between gap-10 md2:flex-wrap sm:justify-center">
+            <img src={Image} alt="..." className="max-w-[100%] w-[380px] md2:w-[100%] sm:h-[300px] h-[400px] object-cover border-white border-x-2 border-y-2"/>
             <div className="my-auto max-w-[100%] w-[55%] h-[100%] flex-shrink-1 sm:w-[100%]">
                 <h3 className="text-blue-600 text-2xl font-bold mb-5">Project 1</h3>
                 <p className="text-md md:text-sm">
@@ -52,8 +52,8 @@ const Project = () => {
             </div>
         </SwiperSlide>
 
-        <SwiperSlide className="text-white flex justify-between gap-10 sm:flex-wrap sm:justify-center">
-            <img src={Image} alt="..." className="max-w-[100%] w-[380px] sm:w-[100%] sm:h-[300px] h-[400px] object-cover border-white border-x-2 border-y-2"/>
+        <SwiperSlide className="text-white flex justify-between gap-10 md2:flex-wrap sm:justify-center">
+            <img src={Image} alt="..." className="max-w-[100%] w-[380px] md2:w-[100%] sm:h-[300px] h-[400px] object-cover border-white border-x-2 border-y-2"/>
             <div className="my-auto max-w-[100%] w-[55%] h-[100%] flex-shrink-1 sm:w-[100%]">
                 <h3 className="text-blue-600 text-2xl font-bold mb-5">Project 2</h3>
                 <p className="text-md md:text-sm">
@@ -70,8 +70,8 @@ const Project = () => {
             </div>
         </SwiperSlide>
 
-        <SwiperSlide className="text-white flex justify-between gap-10 sm:flex-wrap sm:justify-center">
-            <img src={Image} alt="..." className="max-w-[100%] w-[380px] sm:w-[100%] sm:h-[300px] h-[400px] object-cover border-white border-x-2 border-y-2"/>
+        <SwiperSlide className="text-white flex justify-between gap-10 md2:flex-wrap sm:justify-center">
+            <img src={Image} alt="..." className="max-w-[100%] w-[380px] md2:w-[100%] sm:h-[300px] h-[400px] object-cover border-white border-x-2 border-y-2"/>
             <div className="my-auto max-w-[100%] w-[55%] h-[100%] flex-shrink-1 sm:w-[100%]">
                 <h3 className="text-blue-600 text-2xl font-bold mb-5">Project 3</h3>
                 <p className="text-md md:text-sm">
@@ -88,8 +88,8 @@ const Project = () => {
             </div>
         </SwiperSlide>
 
-        <SwiperSlide className="text-white flex justify-between gap-10 sm:flex-wrap sm:justify-center">
-            <img src={Image} alt="..." className="max-w-[100%] w-[380px] sm:w-[100%] sm:h-[300px] h-[400px] object-cover border-white border-x-2 border-y-2"/>
+        <SwiperSlide className="text-white flex justify-between gap-10 md2:flex-wrap sm:justify-center">
+            <img src={Image} alt="..." className="max-w-[100%] w-[380px] md2:w-[100%] sm:h-[300px] h-[400px] object-cover border-white border-x-2 border-y-2"/>
             <div className="my-auto max-w-[100%] w-[55%] h-[100%] flex-shrink-1 sm:w-[100%]">
                 <h3 className="text-blue-600 text-2xl font-bold mb-5">Project 4</h3>
                 <p className="text-md md:text-sm">
