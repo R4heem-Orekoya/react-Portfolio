@@ -1,10 +1,12 @@
 import React from "react";
 import {LuRadio} from 'react-icons/lu'
+import {BsArrowLeftShort, BsArrowRightShort} from 'react-icons/bs'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination} from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import { useSwiper } from "swiper/react";
 
 import Image from './assets/3d3.jpg'
 
@@ -27,12 +29,11 @@ const Projects = () =>{
 const Project = () => {
     return (
       <Swiper
-      className="w-[100%] h-[auto] pb-[50px]"
+      className="w-[100%] h-[auto] pb-[100px]"
       modules={[Navigation, Pagination]}
       slidesPerView={1}
-    //   navigation
       loop={true}
-      pagination={{ clickable: true }}
+    //   pagination={{ clickable: true }}
       >
         <SwiperSlide className="text-white flex justify-between gap-10 md2:flex-wrap sm:justify-center">
             <img src={Image} alt="..." className="max-w-[100%] w-[380px] md2:w-[100%] sm:h-[300px] h-[400px] object-cover border-white border-x-2 border-y-2"/>
@@ -106,8 +107,24 @@ const Project = () => {
             </div>
         </SwiperSlide>
 
+        <SwiperNavButton/>
+
       </Swiper>
     );
 };
+
+const SwiperNavButton = () =>{
+    const swiper = useSwiper();
+    return(
+        <div className="flex gap-2 absolute left-[50%] translate-x-[-50%] bottom-1">
+            <button onClick={() => swiper.slideNext()} className="bg-white p-1 rounded-md hover:bg-blue-600 group">
+                <BsArrowLeftShort className="text-blue-600 group-hover:text-white" size={30}/>
+            </button>
+            <button onClick={() => swiper.slideNext()} className="bg-white p-1 rounded-md hover:bg-blue-600 group">
+                <BsArrowRightShort className="text-blue-600 group-hover:text-white" size={30}/>
+            </button>
+        </div>
+    )
+}
 
 export default Projects

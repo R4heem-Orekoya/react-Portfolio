@@ -7,7 +7,7 @@ function About(){
             <div className="max-w-[1000px] w-[90%] mx-auto py-[100px]">
                 <h2 className="text-5xl font-extrabold lg:text-4xl md:text-3xl"><span className="text-blue-600">01</span>. About me</h2>
                 <div className="w-[100%] h-[100%] mt-12 flex flex-wrap items-center justify-center gap-10">
-                    <img src={Image} alt="my photo" className="w-[400px] aspect-[9/12] object-cover max-w-[100%] flex-shrink-1"/>
+                    <img src={Image} alt="my photo" className="w-[400px] aspect-[9/11] object-cover max-w-[100%] flex-shrink-1"/>
 
                     <div className="w-[450px] flex-shrink md:max-w-[450px]">
                         <h3 className="text-4xl font-bold md:text-2xl">Raheem <span className="text-blue-600">Orekoya</span></h3>

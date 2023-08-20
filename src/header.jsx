@@ -20,8 +20,7 @@ function Header(){
                     <li className="text-white text-md transition duration-300 ease hover:text-blue-600 md:text-sm"><a href="#">Home</a></li>
                     <li className="text-white text-md transition duration-300 ease hover:text-blue-600 md:text-sm"><a href="#about">About</a></li>
                     <li className="text-white text-md transition duration-300 ease hover:text-blue-600 md:text-sm"><a href="#projects">Projects</a></li>
-                    <li className="text-white text-md transition duration-300 ease hover:text-blue-600 md:text-sm"><a href="#">Testomonials</a></li>
-                    <li className="text-white text-md transition duration-300 ease hover:text-blue-600 md:text-sm"><a href="#">Contact</a></li>
+                    <li className="text-white text-md transition duration-300 ease hover:text-blue-600 md:text-sm"><a href="#contact">Contact</a></li>
                 </ul>
 
                 <div className="hidden cursor-pointer md:block" onClick={changeActive}>
