@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { useSwiper } from "swiper/react";
 
-import Image from './assets/3d3.jpg'
+import Image from '../assets/3d3.jpg'
 
 const Projects = () =>{
     return(

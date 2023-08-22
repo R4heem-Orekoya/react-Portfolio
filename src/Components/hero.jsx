@@ -1,5 +1,5 @@
 import React from "react";
-import homeImage from  './assets/3d3.jpg'
+import homeImage from  '../assets/3d3.jpg'
 import { BsFillChatDotsFill } from 'react-icons/bs'
 
 

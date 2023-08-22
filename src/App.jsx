@@ -1,9 +1,9 @@
 import React from "react"
-import Header from "./header"
-import Hero from "./hero"
-import About from "./about"
-import Projects from "./projects"
-import Contact from "./Contact"
+import Header from "./Components/header"
+import Hero from "./Components/hero"
+import About from "./Components/about"
+import Projects from "./Components/projects"
+import Contact from "./Components/Contact"
 
 function App() {
   return(
