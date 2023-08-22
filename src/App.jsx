@@ -4,6 +4,7 @@ import Hero from "./Components/hero"
 import About from "./Components/about"
 import Projects from "./Components/projects"
 import Contact from "./Components/Contact"
+import Footer from "./Components/footer"
 
 export default function App() {
   return(
@@ -13,6 +14,7 @@ export default function App() {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   )
 }
