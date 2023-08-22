@@ -1,6 +1,6 @@
 import React from "react";
 import {LuRadio} from 'react-icons/lu'
-import {BsArrowLeftShort, BsArrowRightShort} from 'react-icons/bs'
+import {IoIosArrowBack, IoIosArrowForward} from 'react-icons/io'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination} from 'swiper/modules';
 import 'swiper/css';
@@ -117,11 +117,11 @@ const SwiperNavButton = () =>{
     const swiper = useSwiper();
     return(
         <div className="flex gap-2 absolute left-[50%] translate-x-[-50%] bottom-1">
-            <button onClick={() => swiper.slideNext()} className="bg-white p-1 rounded-md hover:bg-blue-600 group">
-                <BsArrowLeftShort className="text-blue-600 group-hover:text-white" size={30}/>
+            <button onClick={() => swiper.slideNext()} className="bg-gray-900 p-2 rounded-md hover:bg-blue-600 group">
+                <IoIosArrowBack className="text-blue-600 group-hover:text-white" size={20}/>
             </button>
-            <button onClick={() => swiper.slideNext()} className="bg-white p-1 rounded-md hover:bg-blue-600 group">
-                <BsArrowRightShort className="text-blue-600 group-hover:text-white" size={30}/>
+            <button onClick={() => swiper.slideNext()} className="bg-gray-900 p-2 rounded-md hover:bg-blue-600 group">
+                <IoIosArrowForward className="text-blue-600 group-hover:text-white" size={20}/>
             </button>
         </div>
     )

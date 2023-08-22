@@ -8,6 +8,12 @@ function Header(){
     const changeActive = ()=>{
         setActive(!active)
     }
+    window.addEventListener('scroll', ()=>{
+        if(active){
+            setActive(!active)
+        }
+    })
+
     const style = {color: 'white', fontSize: "1.5rem",}
     return(
         <header className="sticky top-0 w-full h-[80px] bg-black flex z-40">

@@ -5,6 +5,7 @@ import About from "./Components/about"
 import Projects from "./Components/projects"
 import Contact from "./Components/Contact"
 import Footer from "./Components/footer"
+import ScrollToTop from "./Components/scrollToTopBtn"
 
 export default function App() {
   return(
@@ -15,6 +16,7 @@ export default function App() {
       <Projects />
       <Contact />
       <Footer />
+      <ScrollToTop />
     </div>
   )
 }
