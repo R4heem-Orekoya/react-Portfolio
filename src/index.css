@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .hero{
-    min-height: calc(100vh - 80px);
-} */
-
 html{
     scroll-behavior: smooth;
-}
-.swiper-pagination-bullet{
-    background: red;
 }
