@@ -9,12 +9,17 @@ import 'swiper/css/pagination';
 import { useSwiper } from "swiper/react";
 
 import Image from '../assets/3d3.jpg'
+import Button from "./button"
+import Heading from "./sectionHeading";
+import Span from "./sectionHeadingSpan";
 
 const Projects = () =>{
     return(
         <section className="text-white" id="projects">
             <div className="max-w-[1000px] w-[90%] mx-auto py-[100px]">
-                <h2 className="text-5xl font-extrabold lg:text-4xl md:text-3xl"><span className="text-blue-600">02</span>. My projects</h2>
+                <Heading>
+                   <Span>02</Span>. My projects
+                </Heading>
 
                 <div className="w-[100%] h-[100%] mt-12 flex flex-wrap items-center justify-center gap-4">
                     <Project/>
@@ -32,6 +37,7 @@ const Project = () => {
       className="w-[100%] h-[auto] pb-[100px]"
       modules={[Navigation, Pagination]}
       slidesPerView={1}
+      spaceBetween={50}
       loop={true}
     //   pagination={{ clickable: true }}
       >
@@ -46,9 +52,7 @@ const Project = () => {
                     in aut voluptates pariatur!
                 </p>
                 <a href="#">
-                    <button className="flex items-center gap-2 px-7 py-3 mt-8 bg-blue-600 rounded-lg hover:bg-blue-800 duration-300">
-                        <LuRadio/> See live demo
-                    </button>
+                    <Button><LuRadio/>See live demo</Button>
                 </a>
             </div>
         </SwiperSlide>
@@ -64,9 +68,7 @@ const Project = () => {
                     in aut voluptates pariatur!
                 </p>
                 <a href="#">
-                    <button className="flex items-center gap-2 px-7 py-3 mt-8 bg-blue-600 rounded-lg hover:bg-blue-800 duration-300">
-                        <LuRadio/> See live demo
-                    </button>
+                    <Button><LuRadio/>See live demo</Button>
                 </a>
             </div>
         </SwiperSlide>
@@ -82,9 +84,7 @@ const Project = () => {
                     in aut voluptates pariatur!
                 </p>
                 <a href="#">
-                    <button className="flex items-center gap-2 px-7 py-3 mt-8 bg-blue-600 rounded-lg hover:bg-blue-800 duration-300">
-                        <LuRadio/>See live demo
-                    </button>
+                    <Button><LuRadio/>See live demo</Button>
                 </a>
             </div>
         </SwiperSlide>
@@ -100,9 +100,9 @@ const Project = () => {
                     in aut voluptates pariatur!
                 </p>
                 <a href="#">
-                    <button className="flex items-center gap-2 px-7 py-3 mt-8 bg-blue-600 rounded-lg hover:bg-blue-800 duration-300">
-                        <LuRadio/> See live demo
-                    </button>
+                    <Button>
+                        <LuRadio/>See live demo
+                    </Button>
                 </a>
             </div>
         </SwiperSlide>

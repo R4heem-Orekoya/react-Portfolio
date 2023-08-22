@@ -5,7 +5,7 @@ import About from "./Components/about"
 import Projects from "./Components/projects"
 import Contact from "./Components/Contact"
 
-function App() {
+export default function App() {
   return(
     <div className="bg-black w-full min-h-screen font-poppins">
       <Header />
@@ -17,4 +17,3 @@ function App() {
   )
 }
 
-export default App
